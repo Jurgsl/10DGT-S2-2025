@@ -8,6 +8,8 @@
 greeting = "Hello World!"
 print(greeting)
 
+name = "Juergen"
+
 # Store a number
 my_number = 80 # assigned 80 to the variable called my_number
 print(my_number)
@@ -48,5 +50,9 @@ print(sum)
 print(f"My calculation for adding {num_1} and {num_2} together is {sum1}.")
 print("My calculation for adding {} and {} together is {}.".format(num_1, num_2, sum1)) # old way of formatting
 
+# Greet someone
+print("Kia ora, my name is", name)
+print(f"Kia ora, my name is {name}.")
+print("Kia ora, my name is {}".format(name))
 
 
